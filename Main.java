@@ -25,7 +25,7 @@ class Main {
              public void actionPerformed(ActionEvent e) {
                 jt.setBackground(Color.pink);
                 jt.setCursor(Cursor.getDefaultCursor());
-                String name = JOptionPane.showInputDialog(jf, "What is your name?", null);
+                String name = JOptionPane.showInputDialog(jf, "İsminiz nedir?", null);
                 JOptionPane.showMessageDialog(jf, "İsminiz: " + " " + name);
 
              }
