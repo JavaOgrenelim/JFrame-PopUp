@@ -8,7 +8,7 @@ class Main {
         JOptionPane jpanel = new JOptionPane();
         JFrame jf = new JFrame();
         jf.setVisible(true);
-        jf.setTitle("JFrame Buton Stilleri");
+        jf.setTitle("JFrame Pop-Up");
         jf.setSize(500, 700);
         jf.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         ImageIcon icon = new ImageIcon("D:\\favicon.png");
@@ -26,7 +26,7 @@ class Main {
                 jt.setBackground(Color.pink);
                 jt.setCursor(Cursor.getDefaultCursor());
                 String name = JOptionPane.showInputDialog(jf, "What is your name?", null);
-                JOptionPane.showConfirmDialog(jf, "İsminiz: " + " " + name);
+                JOptionPane.showMessageDialog(jf, "İsminiz: " + " " + name);
 
              }
 
